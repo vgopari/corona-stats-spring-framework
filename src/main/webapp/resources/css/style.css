@@ -1,0 +1,155 @@
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+table {
+	overflow-y: scroll;
+	height: 100px;
+	width: 200px;
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+	font-family: 'Courier New';
+	width: 72%;
+	font-size: 22px;
+}
+
+
+th {
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #ffbfbf;
+	padding: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+tr {
+	border-top: 1px solid gray;
+	text-align: center;
+	
+}
+
+tr:nth-child(even) {
+	background: #FFFFFF
+}
+
+tr:nth-child(odd) {
+	background: #f2f2f2
+}
+
+#container {
+	width: 100%;
+	margin: auto
+}
+
+#container h3 {
+	color: #000;
+}
+
+#container #content {
+	margin-top: 20px;
+}
+
+@media ( min-width :992px) {
+	.container {
+		max-width: 960px
+	}
+}
+
+@media ( min-width :992px) {
+	.container {
+		max-width: 960px
+	}
+}
+
+@media ( min-width :1200px) {
+	.container {
+		max-width: 1140px
+	}
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0
+}
+
+}
+.container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.container {
+	min-width: 992px !important
+}
+
+.col-sm {
+	position: relative;
+	width: 100%;
+	padding: 5px;
+	background-color: #8080ff;
+	color: white;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #ffbfbf;
+	margin: 20x;
+	font-size: 15.5px;
+	font-family: 'Courier New';
+}
+
+h5 {
+	font-family: 'Courier New';
+}
+
+h2 {
+	font-family: 'Courier New';
+	font-size: 30px;
+}
+
+.h3 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.death {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: red;
+}
+
+.recover {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: green;
+}
+
+@media ( min-width :576px) {
+	.col-sm {
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+		-ms-flex-positive: 5;
+		flex-grow: 1;
+		max-width: 100%
+	}
+}
